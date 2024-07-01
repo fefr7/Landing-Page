@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nome do Projeto</h1>
+        <p>Uma breve descrição ou slogan</p>
+        <button id="cta-button">Saiba Mais</button>
+    </header>
+
+    <section id="produtos">
+        <h2>Produtos e Serviços</h2>
+        <div class="produto">
+            <h3>Produto 1</h3>
+            <p>Descrição do Produto 1</p>
+        </div>
+        <div class="produto">
+            <h3>Produto 2</h3>
+            <p>Descrição do Produto 2</p>
+        </div>
+        <!-- Adicione mais produtos conforme necessário -->
+    </section>
+
+    <section id="contato">
+        <h2>Sobre / Contato</h2>
+        <form id="contato-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
